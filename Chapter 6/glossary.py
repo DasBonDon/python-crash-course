@@ -2,8 +2,8 @@
 glossary = {
     'glossary': 'A dictionary',
     'dictionary': 'A list with key-value pairs',
-    'if-elif-else': 'Boolean expressions using True or False',
-    'for loop': 'Loops used for iterating over a sequence',
+    'if-elif-else': 'Boolean expressions',
+    'for loop': 'Used for iterating over a sequence',
     'conditional tests': 'True or False statements',
 }
 

@@ -13,6 +13,7 @@ print(f"If-elif-else are {glossary['if-elif-else']}.")
 print(f"For loops are {glossary['for loop']}.")
 print(f"Conditional tests are {glossary['conditional tests']}.")
 
+# This actually prints out the key instead of me writing it manually.
 meaning = glossary['glossary']
 print(f"\nGlossary:\n\t{meaning}.")
 meaning = glossary['dictionary']

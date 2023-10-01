@@ -1,14 +1,21 @@
 # 6-7 People
-gmarshall = {'first_name': 'George', 'last_name': 'Marshall',
+people = []
+
+person = {'first_name': 'George', 'last_name': 'Marshall',
              'age': 35, 'city': 'San Francisco'}
+people.append(person)
 
-akozak = {'first_name': 'Alexander', 'last_name': 'Kozak', 
+person = {'first_name': 'Alexander', 'last_name': 'Kozak', 
           'age': 28, 'city': 'Kiev'}
+people.append(person)
 
-wmonroe = {'first_name': 'William', 'last_name': 'Monroe',
+person = {'first_name': 'William', 'last_name': 'Monroe',
            'age': 25, 'city': 'Houston'}
-
-people = [gmarshall, akozak, wmonroe]
+people.append(person)
 
 for person in people:
-    print(person)
+    name = f"{person['first_name'].title()} {person['last_name'].title()}"
+    age = person['age']
+    city = person['city'].title()
+
+    print(f"{name} is from {city} and is {age} years old.")

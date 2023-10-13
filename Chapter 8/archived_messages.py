@@ -21,6 +21,7 @@ sent_messages = []
 show_messages(messages)
 send_messages(messages[:], sent_messages)
 
+# Print final lists
 print("\nLists:")
 print(messages)
 print(sent_messages)

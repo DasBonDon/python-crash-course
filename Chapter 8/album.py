@@ -1,5 +1,5 @@
 # 8-7 Album
-def make_album(artist, title, songs = None):
+def make_album(artist, title, songs=None):
     album = {'artist': artist, 'album': title}
     if songs:
         album['songs'] = int(songs)

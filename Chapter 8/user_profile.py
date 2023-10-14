@@ -5,7 +5,7 @@ def build_profile(first, last, **user_info):
     return user_info
 
 user_profile = build_profile('george', 'marshall',
-                            location ='uniontown',
-                            career = 'us army',
-                            rank = 'general')
+                            location='uniontown',
+                            career='us army',
+                            rank='general')
 print(user_profile)

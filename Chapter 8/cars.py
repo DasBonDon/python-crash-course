@@ -6,5 +6,5 @@ def make_car(manufacturer, model, **car_info):
     return car_info
 
 # Build the car and print it
-car = make_car('volkswagen', 'beetle', year = '1965', color = 'yellow')
+car = make_car('volkswagen', 'beetle', year='1965', color='yellow')
 print(car)

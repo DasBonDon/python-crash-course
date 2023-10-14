@@ -7,4 +7,4 @@ def make_shirt(size, text):
     print(text)
 
 make_shirt('large', 'hello world')
-make_shirt(size = 'small', text = 'i love donuts')
+make_shirt(size='small', text='i love donuts')

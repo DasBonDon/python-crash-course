@@ -1,5 +1,6 @@
 # 8-10 Sending Messages
-unsent_messages = ['Hello.', 'How are you?', 'Do you want to go to the movies?']
+unsent_messages = ['Hello.', 'How are you?', 
+                   'Do you want to go to the movies?']
 sent_messages = []
 
 def show_messages(messages):

@@ -8,7 +8,9 @@ print("Let's find out whose gonna win!")
 
 while len(winner) < 4:
     pull = choice(list)
-    print(f"\tThere's a {pull}!")
-    winner.append(pull)
+
+    if pull not in winner:
+        print(f"\tThere's a {pull}!")
+        winner.append(pull)
 
 print(f"\nThe winning ticket is: {winner}")

@@ -7,6 +7,5 @@ contents = path.read_text()
 print(contents)
 
 print("\n--- Looping over the lines in a list")
-lines = contents.splitlines()
-for line in lines:
+for line in contents.splitlines():
     print(line)

@@ -1,5 +1,0 @@
-In Python you can create functions to simplify your work.
-In Python you can create dictionaries to store information.
-In Python you can create modules for other programmers to use.
-In Python you can create programs that allow for user input.
-In Python you can create loops to automate your work.
